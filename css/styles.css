@@ -164,7 +164,15 @@ ul {
     .mobile-only {
         display: none;
     }
+    .menu-mobile-icon {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-right: 20.8px;
+    }
 }
+
+
 
 /* */
 
