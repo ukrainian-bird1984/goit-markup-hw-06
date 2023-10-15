@@ -21,12 +21,11 @@
             <nav class="nav">
                 <a href="./index.html" class="nav-logo">Web<span class="nav-logo-span">Studio</span></a>
                 <div class="mobile-none">
-                <ul class="list-nav-link">
+                    <ul class="list-nav-link">
                     <li><a href="./index.html" class="navlink current-navlink">Studio</a></li>
                     <li><a href="" class="navlink">Portfolio</a></li>
                     <li><a href="" class="navlink">Contacts</a></li>
                 </ul>
-            </div>
             </nav>
             <address id="address" class="address">
                 <ul class="address-items">
@@ -34,9 +33,10 @@
                     <li><a href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+        </div>
         <div class="mobile-only">
-            <svg class="menu-mobile-icon" width="64" height="64">
-            <use href="./images/icons.svg#icon-menu-mobile" width="16.8" height="14.4"></use>
+            <svg class="menu-mobile-icon" width="16.8" height="14.4">
+            <use href="./images/icons.svg#icon-menu-mobile"></use>
         </svg>
     </div>
         </div>
@@ -55,11 +55,13 @@
                 <h2 class="visually-hidden" id="about">About</h2>
                 <ul class="about">
                     <li class="about-list-item">
+                        <div class="mobile-tablet-none">
                         <div class="border-about">
                             <svg class="strategy-icon-about" width="64" height="64">
                                 <use href="./images/icons.svg#icon-strategy-about"></use>
                             </svg>
                             </div>
+                        </div>
                         <h3 class="about-title">Strategy</h3>
                         <p class="about-p">
                             Our goal is to identify the business problem to walk away with the
@@ -67,11 +69,13 @@
                         </p>
                     </li>
                     <li class="about-list-item">
+                        <div class="mobile-tablet-none">
                         <div class="border-about">
                             <svg class="punctuality-icon-about" width="64" height="64">
                             <use href="./images/icons.svg#icon-punctuality-about"></use>
                         </svg>
                         </div>
+                    </div>
                         <h3 class="about-title">Punctuality</h3>
                         <p class="about-p">
                             Bring the key message to the brand's audience for the best price
@@ -79,11 +83,13 @@
                         </p>
                     </li>
                     <li class="about-list-item">
+                        <div class="mobile-tablet-none">
                         <div class="border-about">
                             <svg class="diligence-icon-about" width="64" height="64">
                                 <use href="./images/icons.svg#icon-diligence-about"></use>
                             </svg>
                         </div>
+                    </div>
                         <h3 class="about-title">Diligence</h3>
                         <p class="about-p">
                             Research and confirm brands that present the strongest digital
@@ -91,11 +97,13 @@
                         </p>
                     </li>
                     <li class="about-list-item">
+                        <div class="mobile-tablet-none">
                         <div class="border-about">
                             <svg class="technologies-icon-about" width="64" height="64">
                                 <use href="./images/icons.svg#icon-technology-about"></use>
                             </svg>
                         </div>
+                    </div>
                         <h3 class="about-title">Technologies</h3>
                         <p class="about-p">
                             Design practice focused on digital experiences. We bring forth a
@@ -111,7 +119,8 @@
                 <h2 id="our-team" class="our-team-name">Our Team</h2>
                 <ul class="our-team-items">
                     <li class="our-team-list">
-                        <img src="./images/1.jpg" alt="mark guerrero" height="260" width="264" />
+                        <img srcset="./images/section-three-mark-guerrero.jpg 1x, ./images/section-three-mark-guerrero@2x"
+                        src="./images/section-three-mark-guerrero.jpg" alt="mark guerrero" height="260" width="264" />
                         <div class="our-team-worker">
                             <h3 class="our-team-title">Mark Guerrero</h3>
                             <p class="our-team-p">Product Designer</p>
@@ -145,9 +154,11 @@
                                 </a>
                             </li>
                             </ul>
+                        </div>
                             </div>    
                     <li class="our-team-list">
-                        <img src="./images/2.jpg" alt="tom ford" height="260" width="264" />
+                        <img srcset="./images/section-three-tom-ford.jpg x1, ./images/section-three-tom-ford@2.jpg 2x"
+                        src="./images/section-three-tom-ford.jpg" alt="tom ford" height="260" width="264" />
                         <div class="our-team-worker">
                             <h3 class="our-team-title">Tom Ford</h3>
                             <p class="our-team-p">Frontend Developer</p>
@@ -184,7 +195,8 @@
                         </div>
                     </li>
                     <li class="our-team-list">
-                        <img src="./images/3.jpg" alt="camila garcia" height="260" width="264" />
+                        <img srcset="./images/section-three-camila-garsia.jpg 1x, ./images/section-three-camila-garsia@2x.jpg 2x"
+                        src="./images/section-three-camila-garsia.jpg" alt="camila garcia" height="260" width="264" />
                         <div class="our-team-worker">
                             <h3 class="our-team-title">Camila Garcia</h3>
                             <p class="our-team-p">Marketing</p>
@@ -221,7 +233,8 @@
                         </div>
                     </li>
                     <li class="our-team-list">
-                        <img src="./images/4.jpg" alt="daniel wilson" height="260" width="264" />
+                        <img srcset="./images/section-three-daniel-wilson.jpg 1x, ./images/section-three-daniel-wilson@2x.jpg 2x"
+                        src="./images/section-three-daniel-wilson.jpg" alt="daniel wilson" height="260" width="264" />
                         <div class="our-team-worker">
                             <h3 class="our-team-title">Daniel Wilson</h3>
                             <p class="our-team-p">UI Designer</p>
@@ -267,9 +280,13 @@
                 <ul class="our-portfolio-items">
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-image">
-                        <img src="./images/5.jpg" alt="banking-app" width="360" height="300" />
+                        <img class="our-portfolio-mobile-none"
+                        srcset="./images/-app.jpg 1x, ./images/section-four-banking-app@2x.jpg 2x"
+                        src="./images/section-four-banking-app.jpg" alt="banking-app" width="360" height="300" />
+                        <img class="our-portfolio-mobile-only" srcset="./images/section-four-banking-app-mobile.jpg 1x, ./images/section-four-banking-app-mobile@2x.jpg 2x"
+                        src="./images/section-four-banking-app-mobile.jpg" alt="banking-app" width="288" height="280" />
                     <p class="our-portfolio-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
-                        · Exotic Fruit Ecommerce
+                        · Exotic Fruit Ecommercesection-four-banking
                         App ·
                         Cloud Storage App</p>
                     </div>
@@ -280,7 +297,12 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-image">
-                        <img src="./images/6.jpg" alt="cashless-payment" width="360" height="300" />
+                        <img class="our-portfolio-mobile-none"
+                        srcset="./images/section-four-cashless-payment.jpg 1x, ./images/section-four-cashless-payment@2x.jpg 2x"
+                        src="./images/section-four-cashless-payment.jpg" alt="cashless-payment" width="360" height="300" />
+                        <img class="our-portfolio-mobile-only"
+                            srcset="./images/section-four-cashless-payment-mobile.jpg 1x, ./images/section-four-cashless-payment-mobile@2x.jpg 2x"
+                            src="./images/section-four-cashless-payment-mobile.jpg" alt="banking-app" width="288" height="280" />
                         <p class="our-portfolio-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce
                             App ·
@@ -293,7 +315,11 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-image">
-                        <img src="./images/7.jpg" alt="meditation-app" width="360" height="300" />
+                        <img class="our-portfolio-mobile-none"
+                        srcset="./images/section-four-meditation-app.jpg 1x, ./images/section-four-meditation-app@2x.jpg 2x"
+                        src="./images/section-four-meditation-app.jpg" alt="meditation-app" width="360" height="300" />
+                        <img class="our-portfolio-mobile-only" srcset="./images/section-four-meditation-app-mobile.jpg 1x, ./images/section-four-meditation-app-mobile@2x.jpg 2x"
+                            src="./images/section-four-meditation-app-mobile.jpg" alt="banking-app" width="288" height="280" />
                         <p class="our-portfolio-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce
                             App ·
@@ -306,7 +332,12 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-image">
-                        <img src="./images/8.jpg" alt="taxi-service" width="360" height="300" />
+                        <img class="our-portfolio-mobile-none"
+                        srcset="./images/section-four-taxi-service.jpg 1x, ./images/section-four-taxi-service@2x.jpg 2x"
+                        src="./images/section-four-taxi-service.jpg" alt="taxi-service" width="360" height="300" />
+                        <img class="our-portfolio-mobile-only"
+                            srcset="./images/section-four-taxi-service-mobile.jpg 1x, ./images/section-four-taxi-service-mobile@2x.jpg 2x"
+                            src="./images/section-four-taxi-service-mobile.jpg" alt="banking-app" width="288" height="280" />
                         <p class="our-portfolio-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce
                             App ·
@@ -319,7 +350,12 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-image">
-                        <img src="./images/9.jpg" alt="screen-illustrations" width="360" height="300" />
+                        <img class="our-portfolio-mobile-none"
+                        srcset="./images/section-four-screen-illustrations.jpg x1, ./images/section-four-screen-illustrations@2x.jpg x2"
+                        src="./images/section-four-screen-illustrations.jpg" alt="screen-illustrations" width="360" height="300" />
+                        <img class="our-portfolio-mobile-only"
+                            srcset="./images/section-four-screen-illustrations-mobile.jpg 1x, ./images/section-four-screen-illustrations-mobile@2x.jpg 2x"
+                            src="./images/section-four-screen-illustrations-mobile.jpg" alt="banking-app" width="288" height="280" />
                         <p class="our-portfolio-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce
                             App ·
@@ -332,7 +368,12 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-image">
-                        <img src="./images/10.jpg" alt="online-courses" width="360" height="300" />
+                        <img class="our-portfolio-mobile-none"
+                        srcset="./images/section-four-online-courses.jpg 1x, ./images/section-four-online-courses@2x.jpg 2x"
+                        src="./images/section-four-online-courses.jpg" alt="online-courses" width="360" height="300" />
+                        <img class="our-portfolio-mobile-only"
+                            srcset="./images/section-four-online-courses-mobile.jpg 1x, ./images/section-four-online-courses-mobile@2x.jpg 2x"
+                            src="./images/section-four-online-courses-mobile.jpg" alt="banking-app" width="288" height="280" />
                         <p class="our-portfolio-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce
                             App ·
@@ -452,7 +493,8 @@
                                 <svg class="svg-backdrop-span" width="10" height="8">
                                     <use href="./images/icons.svg#icon-checkbox-click"></use>
                                 </svg>
-                            </span>I accept the terms and conditions of the
+                            </span>
+                            I accept the terms and conditions of the
                             <a class="a-privacy" href="">Privacy Policy</a>
                         </label>
                         </div>
