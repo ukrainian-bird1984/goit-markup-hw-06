@@ -273,7 +273,7 @@ ul {
     color: #404bbf;
 }
 
-/*========SECTION 1 EFFECTIVE===========*/
+/* ========SECTION 1 EFFECTIVE=========== */
 .effective {
     padding: 72px 0;
     background-position: center;
@@ -991,23 +991,14 @@ ul {
     }
 
     .effective {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_tab.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/section-one-background-tablet.jpg);
     }
 
-@media (min-divice-pixel-ratio: 2),
-(min-rezolution: 192dpi),
-(min-rezolution: 2dppx) {
-    .effective {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/section-one-background-mobile-2x.jpg);
-    }
-}
-
-    
     @media (min-divice-pixel-ratio: 2),
     (min-rezolution: 192dpi),
     (min-rezolution: 2dppx) {
         .effective {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_tab_x2.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/section-one-background-tablet-2x.jpg);
         }
     }
 
@@ -1022,7 +1013,6 @@ ul {
     .about-items {
         gap: 72px 24px;
         padding: 0;
-
     }
 
     .about-item {
@@ -1032,11 +1022,10 @@ ul {
     .about-title {
         text-align: start;
     }
-
+/* !!!!!!!!!!!!!!!!!!!!! */
     .team {
         padding-top: 96px;
         padding-bottom: 96px;
-
     }
 
     .team-list {
@@ -1132,16 +1121,15 @@ ul {
 
     }
 
-    .business {
-
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+    .effective {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/section-one-background.jpg);
     }
 
     @media (min-divice-pixel-ratio: 2),
     (min-rezolution: 192dpi),
     (min-rezolution: 2dppx) {
-        .buziness {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_x2.jpg);
+        .effective {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/section-one-background-2x.jpg);
         }
     }
 
