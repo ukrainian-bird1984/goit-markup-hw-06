@@ -1102,7 +1102,15 @@ img {
     .footer-form-btn {
         margin-top: 0px;
     }
-  }
+
+    .check-text {
+        display: flex;
+    }
+
+    .modal-span-mobile {
+        padding-left: 8px;        
+    }
+}
 
 /* TABLET SCREEN */
 
