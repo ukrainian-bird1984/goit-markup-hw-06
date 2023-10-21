@@ -907,6 +907,8 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
 }
 
 .check-text a {
@@ -917,6 +919,7 @@ img {
 
 .check-text-box {
     display: inline-flex;
+    flex-shrink: 0;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -926,7 +929,7 @@ img {
     fill: transparent;
     outline: transparent;
     background-color: transparent;
-    margin-right: 12px;
+    margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1103,13 +1106,6 @@ img {
         margin-top: 0px;
     }
 
-    .check-text {
-        display: flex;
-    }
-
-    .modal-span-mobile {
-        padding-left: 8px;        
-    }
 }
 
 /* TABLET SCREEN */
