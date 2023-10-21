@@ -608,7 +608,6 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
 }
 
 .text-footer {
@@ -1119,7 +1118,6 @@ img {
     .footer-form-btn {
         margin-top: 0px;
     }
-
 }
 
 /* TABLET SCREEN */
@@ -1131,11 +1129,22 @@ img {
 
     .plan {
         padding: 120px 0;
+        display: flex;
     }
     
+    .plan-list {
+        flex-wrap: nowrap;
+        display: flex;
+    }
+
     .plan-item {
         width: calc((100% - 72px) / 4);
-        min-width: 264px;
+        row-gap: 72px;
+    }
+
+    .plan-icon-wrap {
+        flex-wrap: nowrap;
+        display: flex;
     }
 
     .plan-title {
@@ -1146,15 +1155,6 @@ img {
 
     .plan-text {
         font-weight: 400;
-    }
-
-    .plan-list {
-        flex-wrap: nowrap;
-    }
-
-    .plan-icon-wrap {
-        display: block;
-        display: flex;
     }
 
     .team {
