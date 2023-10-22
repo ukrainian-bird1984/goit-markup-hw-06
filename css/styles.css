@@ -1146,7 +1146,7 @@ img {
     }
 }
 
-/* TABLET SCREEN */
+/* --------TABLET SCREEN-------- */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1254,6 +1254,13 @@ img {
         flex-wrap: nowrap;
     }
 
+    .name-footer {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;    
+    }
+
+
     .text-footer {
         margin-right: 120px;
     }
@@ -1273,5 +1280,12 @@ img {
 
     .footer-media {
         gap: 24px;
+    }
+
+    .footer-form-btn {
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
     }
 }
