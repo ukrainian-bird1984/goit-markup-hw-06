@@ -608,6 +608,8 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
+    flex-direction: column;
+    gap: 72px;
 }
 
 .text-footer {
@@ -688,6 +690,13 @@ img {
 .footer-form {
     display: flex;
     gap: 24px;
+    flex-direction: column;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-text {
@@ -1074,6 +1083,10 @@ img {
         margin-bottom: 12px;
     }
 
+    .container.footer-container {
+        max-width: 584px;
+    }
+
     .text-footer {
         display: flex;
         flex-direction: column;
@@ -1219,7 +1232,7 @@ img {
     }
     
     .container.footer-container {
-     max-width: 584px;
+     max-width: 1158px;
     }
 
     .footer-container {
