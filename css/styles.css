@@ -310,7 +310,7 @@ img {
 .section-caption {
     padding: 72px 0;
     background: var(--NAVY-BLUE, #2E2F42);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-one-background.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-one-background-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 320px;
@@ -322,7 +322,7 @@ img {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .section-caption {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-one-background@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-one-background-mobile@2x.jpg);
     }
 }
 
@@ -1001,7 +1001,7 @@ img {
     color: var(--LIGHT-SLATE, #8E8F99);
 }
 
-/*------------- MOBILE SCREEN----------- */
+/*------------- TABLET SCREEN----------- */
 
 @media screen and (min-width: 768px) {
     .container {
@@ -1045,7 +1045,7 @@ img {
     .section-caption {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/section-one-background-mobile.jpg);
+            url(../images/section-one-background-tablet.jpg);
         padding: 112px 0;
         max-width: 768px;
     }
@@ -1056,7 +1056,7 @@ img {
         .section-caption {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/section-one-background-mobile@2x.jpg);
+                url(../images/section-one-background-tablet@2x.jpg);
         }
     }
 
@@ -1149,7 +1149,7 @@ img {
     }
 }
 
-/* --------TABLET SCREEN-------- */
+/* --------DESKTOP SCREEN-------- */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1217,7 +1217,7 @@ img {
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/section-one-background-tablet.jpg);
+            url(../images/section-one-background.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -1226,7 +1226,7 @@ img {
         .section-caption {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/section-one-background-tablet@2x.jpg);
+                url(../images/section-one-background@2x.jpg);
         }
     }
 
